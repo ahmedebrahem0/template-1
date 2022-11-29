@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-cursive;
+    
+}
+
+.container {
+    background:rgb(255, 255, 255);
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+}
+
+.logo {
+    width: 30px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+
+ul li a{
+    color: black;
+    text-decoration: none;
+    margin: 0 10px;
+
+}
+ul li a:hover {
+    
+    color: rgb(0, 234, 255);
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    width: 80%;
+    margin: auto;
+
+}
+
+.content .text {
+    width: 40%;
+    color: black;
+}
+.content .text h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.content .text h2:hover {
+    color: rgb(0, 234, 255);
+}
+
+.content .text p {
+    font-size: 18px;
+    margin: 20px 0;
+
+}
+.content .text p:hover {
+    color: rgb(0, 234, 255);
+}
+
+.content .text a {
+    text-decoration: none;
+    background: rgb(0, 0, 0);
+    color:#eee;
+    padding: 8px 15px ; 
+    border-radius: 5px;
+}
+.content .text a:hover {
+    color: rgb(0, 234, 255);
+}
+.content .img {
+    width: 30%;
+}
+.content .img:hover{
+    transition: 0.5s;
+    cursor: pointer;
+    transform: scale(1.2);
+
+}
+
+.content .img img {
+    width: 245px;
+}
+
+.icon {
+    position: absolute;
+    bottom: 20px;
+    left:50%;
+    transform: translateX(-50%);
+
+}
+
+.icon img {
+    width: 40px;
+    transition: 0.5s;
+    cursor: pointer;
+} 
+
+.icon img:hover {
+    transform: scale(1.2);
+
+}
