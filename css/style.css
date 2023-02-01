@@ -10,15 +10,11 @@ body {
      margin: 0;
      padding:0;
      text-decoration: none;
+     font-family: Arial, Helvetica, sans-serif;
      
 }
 
-/* .full {
-     width: 100%;
-     float: left;
-     margin: 0;
-     padding: 0;
-} */
+
 /*...................................................................*/
 .staky {
      position: fixed;
@@ -118,7 +114,6 @@ h1:hover{
      font-size: 30px;
      color: rgb(0, 0, 0); 
      border-radius: 20px;
-     /* background-color: #e0e7ed; */
      text-decoration: none;
      color: #e0e7ed;
      
@@ -175,16 +170,9 @@ h1:hover{
 
 .clients {
      background: #fff;
-     /* padding: 60px 0px; */
 } 
-/*  */
 
-.clients_red {
-     /* padding-top: 90px; */
-     /* padding-bottom:110px; */
-     margin-left: 10px;
-     margin-right: 10px;
-} 
+
 
 .allclients {
      border: 1px solid #666666;
@@ -195,9 +183,7 @@ h1:hover{
      background-color: #e6e6e6;
 
 }
-/* .allclients:hover {
-     color: red;
-} */
+
 .ornage_color {
      color: #19449b;
 }
@@ -210,9 +196,7 @@ h1:hover{
 .headcli {
      color: red;
 }
-/* .headcli:hover {
-     color: red;
-} */
+
 .iconcil {
      text-align: center;
 }
@@ -224,10 +208,7 @@ h1:hover{
      border-top: #db0000 solid 6px;
 }
 .container {
-     margin-left: 35px;
-     margin-right: 35px;
      font-family: cursive;
-     /* margin-left:60px ; */
 } 
 
 .brand-bg {
@@ -322,8 +303,6 @@ right: 660px;
 .rowbrand {
      display: flex;
      flex-wrap: wrap;
-     /* margin-right: -15px;
-     margin-left: -15px; */
      justify-content: space-between;
 }
 
@@ -380,7 +359,7 @@ right: 660px;
      font-family: poppins;
      border: #ff0000 solid 2px;
      margin-bottom: 30px;
-     padding: 13px 20px;
+     padding: 11px 5px;
      width: 100%;
      padding-top: 40px;
      border-top-left-radius: 25px;
@@ -553,12 +532,6 @@ ul.location_icon span {
 
 /*.................iphone12................................*/
 
-     /* * {
-     padding: 0;
-     margin: 0;
-     font-family: sans-cursive;
-     
-     } */
 
      .containeriphone13 {
           background:black;
@@ -673,4 +646,5 @@ ul.location_icon span {
      .headipono12 li a:hover {
           color: red;
      }
+     
      
